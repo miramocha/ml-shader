@@ -3,6 +3,14 @@ ML Shader is a Unity3D Shader Graph implementation that achieves stylized lighti
 
 https://github.com/user-attachments/assets/89c2228b-5a2a-4e51-bbe8-dabc5b82b9b5
 
+> **Note on UV Indices:** For all properties using a UV Index range (-1 to 3), an index of **-1** uses the **View Projection** model (Matcap-style mapping). Indices 0 through 3 correspond to the standard mesh UV channels (UV0-UV3).
+
+> **Note on Blend Type Indices:** For properties using a Blend Type Index (0 to 3), the mapping is:
+> *   **0**: Overwrite
+> *   **1**: Multiply
+> *   **2**: Screen
+> *   **3**: Overlay
+
 ## 1. URP System Settings
 Settings regarding integration with the Universal Render Pipeline.
 
