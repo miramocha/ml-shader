@@ -1,3 +1,6 @@
+Please check for for latest version. This repository is being archived.
+https://github.com/miramocha/mlshader-upm
+
 # ml-shader
 ML Shader is a Unity3D Shader Graph implementation that achieves stylized lighting through matcap-like behavior.
 
